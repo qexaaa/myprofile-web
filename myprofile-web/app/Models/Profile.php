@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Profile extends Model
+{
+   protected $fillable = [
+        'name',
+        'about',
+        'instagram',
+        'email',
+        'linkedin',
+        'github',
+        'avatar',
+        'hero_background',
+    ];
+}
